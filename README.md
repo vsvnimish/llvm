@@ -1,7 +1,7 @@
 ## 
 ### some of c++11/c++14 features used in llvm
 
-* final keyword : this keyword is used after class name so that we cannot inherit that class,and it is used in MacroArgs.h  
+* final keyword : this keyword is used after class name so that we cannot inherit that class 
 reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/MacroArgs.h  
 * explicit keyword :  
 reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/MacroInfo.h    
@@ -9,7 +9,7 @@ reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/L
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/MacroInfo.h  
 * nullptr : it is used to intialize pointer to null value  
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/HeaderSearch.h  
-* noexcept specifier : 
+* move function : 
 reference:  
 * Templates :  //if we use templates then we can change datatypes without changing entire code//LLparser.h  
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/AST/APValue.h  
