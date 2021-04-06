@@ -30,6 +30,6 @@ references:
     
 ![tree](hello.png)
 
-so much of inheritance is used in llvm and this class heiararchy is tree which indicates parent-child relationship the class which inherits other is a child of that other
-class
+class hierarchy is tree which indicates parent-child relationship ,if class A inherits class B ,then class A is child of class B
+
                                                  
