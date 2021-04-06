@@ -9,8 +9,6 @@ reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/L
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/MacroInfo.h  
 * nullptr : it is used to intialize pointer to null value  
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/HeaderSearch.h  
-* move function :   
-reference: https://github.com/llvm/llvm-project/blob/main/clang/lib/Frontend/ASTUnit.cpp
 * Templates : it is used for generic programming    
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/AST/APValue.h  
 * delete keyword :            
