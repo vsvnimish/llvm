@@ -32,4 +32,17 @@ references:
 
 class hierarchy is tree which indicates parent-child relationship ,if class A inherits class B ,then class A is child of class B
 
+### OOP design decisions for LLVM
+ Abstraction : in this method we will place declartions and definitions of functions in seperate files ,so we will only give the file which contains declarations to the 
+               user and we will not show or give the file which contains definition to the user ,so in that way user will only what the function will do and he will
+               not know how the function will do
+ reference : 
+ Data hiding :
+ Inheritance :
+ Modularity :
+ Encapsulation :
+ Polymorphism :
+ 
+ 
+
                                                  
