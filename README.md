@@ -11,7 +11,7 @@ reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Le
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/HeaderSearch.h  
 * Templates : it is used for generic programming    
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/AST/APValue.h  
-* delete keyword : if we intialize our function to delete then we cannot call that function            
+* delete keyword :             
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/HeaderSearch.h  
 * intializer list : it is used to intialize all data members in class by default when we create an object to a class   
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/DirectoryLookup.h  
