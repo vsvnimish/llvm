@@ -33,15 +33,23 @@ references:
 class hierarchy is tree which indicates parent-child relationship ,if class A inherits class B ,then class A is child of class B
 
 ### OOP design decisions for LLVM
- Abstraction : in this method we will place declartions and definitions of functions in seperate files ,so we will only give the file which contains declarations to the 
-               user and we will not show or give the file which contains definition to the user , in llvm they maintained seperate files for declarations and definitions of                    functions   
+ Abstraction : in this method we will place declartions and definitions of methods in seperate files ,so we will only give the file which contains declarations to the 
+               user and we will not show or give the file which contains definition to the user , in llvm they maintained seperate files for declarations and definitions of                    methods      
  reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/MacroArgs.h  
  
- Data hiding : 
+ Data hiding :
+ reference : 
+ 
  Inheritance :
- Modularity :
- Encapsulation :
- Polymorphism :
+ reference : 
+ 
+ Modularity : we will place our large code which consists of various tasks in seperate modules,so that we can differentiate that this module will do this task,in llvm they                     are having so many modules ,so each module will do some tasks              
+ reference : https://github.com/llvm/llvm-project/tree/main/clang/lib/Frontend
+ 
+ Encapsulation : grouping of variables and methods together in a class  
+ reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/MacroArgs.h 
+ 
+ Polymorphism : 
  
  
 
