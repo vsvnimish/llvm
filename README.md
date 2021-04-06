@@ -34,9 +34,9 @@ class hierarchy is tree which indicates parent-child relationship ,if class A in
 
 ### OOP design decisions for LLVM
  Abstraction : in this method we will place declartions and definitions of functions in seperate files ,so we will only give the file which contains declarations to the 
-               user and we will not show or give the file which contains definition to the user ,so in that way user will only what the function will do and he will
-               not know how the function will do
- reference : 
+               user and we will not show or give the file which contains definition to the user , in llvm they maintained seperate files for declarations and definitions of                    functions 
+ reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/MacroArgs.h
+ 
  Data hiding :
  Inheritance :
  Modularity :
