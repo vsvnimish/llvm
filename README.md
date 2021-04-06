@@ -5,7 +5,7 @@
 reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/MacroArgs.h  
 * explicit keyword :  
 reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/MacroInfo.h    
-* auto keyword : if use auto keyword then there is no need to specify variable data type  
+* auto keyword : if use auto keyword then there is no need to specify data type of variable    
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/MacroInfo.h  
 * nullptr : it is used to intialize pointer to null value  
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/HeaderSearch.h  
@@ -15,9 +15,9 @@ reference: https://github.com/llvm/llvm-project/blob/main/clang/lib/Frontend/AST
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/AST/APValue.h  
 * delete keyword :           
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/HeaderSearch.h  
-* intialization list : it is used to intialize all data members in class
+* intializer list : it is used to intialize all data members in class by default when we create an object to a class   
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/DirectoryLookup.h  
-* default  keyword :  
+* default  keyword : in delecration of function if we intialize to default then compiler will write some definition to that function   
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/Pragma.h  
 * range-based loops :  
 reference: https://github.com/llvm/llvm-project/blob/main/clang/lib/Frontend/CompilerInvocation.cpp  
