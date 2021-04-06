@@ -40,8 +40,8 @@ class hierarchy is tree which indicates parent-child relationship ,if class A in
  * Data hiding :
    reference : 
  
- * Inheritance :
-   reference : 
+ * Inheritance : if class B inherits class A then class B will also contain all member functions and variables of class A,so in that way we can reduce redundancy
+   reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/CodeGen/CodeGenAction.h
  
  * Modularity : we will place our large code which consists of various tasks in seperate modules,so that we can differentiate that this module will do this task,in llvm they                     are having so many modules ,so each module will do some tasks              
    reference : https://github.com/llvm/llvm-project/tree/main/clang/lib/Frontend
