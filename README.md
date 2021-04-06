@@ -58,9 +58,9 @@ class hierarchy is tree which indicates parent-child relationship ,if class A in
        
 ### Design patterns used in llvm
  * factory pattern   
-   reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Tooling/Tooling.h  
- * observer pattern  
-   refernce : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Analysis/Analyses/LiveVariables.h  
+   reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Tooling/Tooling.h    
+ * observer pattern : when one object is modified it will send some signal to all other objects which are depend on it.  
+   refernce : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Analysis/Analyses/LiveVariables.h   
 ### Usage of iterators and their own data structures  
  *  
 
