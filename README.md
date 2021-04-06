@@ -55,6 +55,15 @@ class hierarchy is tree which indicates parent-child relationship ,if class A in
        reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/CodeGen/CodeGenAction.h    
      * operator overloading : we can use same operator to perform different tasks   
        reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/ModuleMap.h  
+       
+### Design patterns used in llvm
+ * factory pattern   
+   reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Tooling/Tooling.h  
+ * observer pattern  
+   refernce : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Analysis/Analyses/LiveVariables.h  
+### Usage of iterators and their own data structures  
+ *  
+
 
  
                                                  
