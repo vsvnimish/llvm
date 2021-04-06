@@ -61,8 +61,10 @@ class hierarchy is tree which indicates parent-child relationship ,if class A in
    reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Tooling/Tooling.h    
  * observer pattern : when one object is modified it will send some signal to all other objects which are depend on it.  
    refernce : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Analysis/Analyses/LiveVariables.h   
-### Usage of iterators and their own data structures  
- 
+### Usage of iterators and their own data structures   
+    iterators are used to iterate over containers ,in llvm begin and end methods are used ,begin method will return starting adress of container and end method will
+    return ending adress of container  
+    reference : https://github.com/llvm/llvm-project/blob/main/clang/examples/PrintFunctionNames/PrintFunctionNames.cpp  
 
 
  
