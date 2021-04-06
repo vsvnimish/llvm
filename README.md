@@ -11,7 +11,7 @@ reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Le
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/HeaderSearch.h  
 * move function :   
 reference: https://github.com/llvm/llvm-project/blob/main/clang/lib/Frontend/ASTUnit.cpp
-* Templates :  //if we use templates then we can change datatypes without changing entire code//LLparser.h  
+* Templates : it is used for generic programming    
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/AST/APValue.h  
 * delete keyword :           
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/HeaderSearch.h  
