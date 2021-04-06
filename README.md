@@ -67,7 +67,9 @@ class hierarchy is tree which indicates parent-child relationship ,if class A in
  return ending adress of container,local_begin and local_end methods are also implemented in llvm  
  reference : https://github.com/llvm/llvm-project/blob/main/clang/examples/PrintFunctionNames/PrintFunctionNames.cpp  
  const_iterator,reverse_iterator,const_reverse_iterator are used in llvm   
- reference : https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/ADT/SmallVector.h  
-
+ reference : https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/ADT/SmallVector.h    
+ data structures used in llvm are ReferenceProxy,pointee_iterator   
+ refernce : https://github.com/llvm/llvm-project/blob/main/llvm/include/llvm/ADT/iterator.h     
+   
  
                                                  
