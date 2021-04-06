@@ -50,9 +50,12 @@ class hierarchy is tree which indicates parent-child relationship ,if class A in
  * Encapsulation : grouping of variables and methods together in a class    
    reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/MacroArgs.h 
  
- * Polymorphism : we can use same function to perform different tasks     
-   reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/CodeGen/CodeGenAction.h    
- 
+ * Polymorphism :  
+     function overloading : we can use same function to perform different tasks         
+     reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/CodeGen/CodeGenAction.h  
+     operator overloading : we can use same operator to perform different tasks 
+     reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/ModuleMap.h  
+
  
 
                                                  
