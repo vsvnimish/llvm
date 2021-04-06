@@ -15,8 +15,8 @@ reference: https://github.com/llvm/llvm-project/blob/main/clang/lib/Frontend/AST
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/AST/APValue.h  
 * delete keyword :           
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/HeaderSearch.h  
-* non-static data members initialization :  
-reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/HeaderSearch.h  
+* intialization list : it is used to intialize all data members in class
+reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/DirectoryLookup.h  
 * default  keyword :  
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/Pragma.h  
 * range-based loops :  
