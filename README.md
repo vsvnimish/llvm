@@ -17,7 +17,7 @@ reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/AS
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/HeaderSearch.h  
 * intializer list : it is used to intialize all data members in class by default when we create an object to a class   
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/DirectoryLookup.h  
-* default  keyword : in delecration of function if we intialize to default then compiler will write some definition to that function   
+* default  keyword : in declaration of function if we intialize it to default then compiler will write some definition to that function   
 reference: https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/Pragma.h  
 * range-based loops :  
 reference: https://github.com/llvm/llvm-project/blob/main/clang/lib/Frontend/CompilerInvocation.cpp  
