@@ -37,16 +37,17 @@ class hierarchy is tree which indicates parent-child relationship ,if class A in
                user and we will not show or give the file which contains definition to the user , in llvm they maintained seperate files for declarations and definitions of                    methods      
   reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/MacroArgs.h  
  
- * Data hiding :
-   reference : 
+ * Data hiding : by using this technique we will not allow objects of class to access private data and private member functions of a class,llvm uses this
+                 technique to stop users from acessing restricted data   
+   reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/MacroArgs.h   
  
- * Inheritance : if class B inherits class A then class B will also contain all member functions and variables of class A,so in that way we can reduce redundancy
-   reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/CodeGen/CodeGenAction.h
+ * Inheritance : if class B inherits class A then class B will also contain all member functions and variables of class A,so in that way we can reduce redundancy  
+   reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/CodeGen/CodeGenAction.h    
  
- * Modularity : we will place our large code which consists of various tasks in seperate modules,so that we can differentiate that this module will do this task,in llvm they                     are having so many modules ,so each module will do some tasks              
-   reference : https://github.com/llvm/llvm-project/tree/main/clang/lib/Frontend
+ * Modularity : we will place our large code which consists of various tasks in seperate modules,so that we can differentiate that this module will do this task,in llvm they                     are having so many modules ,so each module will do some tasks                
+   reference : https://github.com/llvm/llvm-project/tree/main/clang/lib/Frontend  
  
- * Encapsulation : grouping of variables and methods together in a class  
+ * Encapsulation : grouping of variables and methods together in a class    
    reference : https://github.com/llvm/llvm-project/blob/main/clang/include/clang/Lex/MacroArgs.h 
  
  * Polymorphism :
